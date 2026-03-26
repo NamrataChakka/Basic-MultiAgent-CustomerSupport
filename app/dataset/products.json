@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": "P-1001",
+      "name": "Bluetooth Headphones",
+      "category": "Audio",
+      "brand": "SoundMax",
+      "price_usd": 79.99,
+      "warranty_months": 12,
+      "return_policy": "Returns accepted within 30 days if unopened. Defective items can be returned within 30 days.",
+      "faq": [
+        {
+          "question": "Are these headphones wireless?",
+          "answer": "Yes, the SoundMax Bluetooth Headphones connect wirelessly via Bluetooth."
+        },
+        {
+          "question": "Do they support noise cancellation?",
+          "answer": "They support passive noise isolation but do not have active noise cancellation."
+        },
+        {
+          "question": "What is the battery life?",
+          "answer": "The battery lasts up to 20 hours on a full charge."
+        }
+      ]
+    },
+    {
+      "id": "P-1002",
+      "name": "Smart Watch",
+      "category": "Wearables",
+      "brand": "FitPro",
+      "price_usd": 149.99,
+      "warranty_months": 24,
+      "return_policy": "Returns accepted within 14 days. Product must be in original condition.",
+      "faq": [
+        {
+          "question": "Is the smart watch waterproof?",
+          "answer": "The FitPro Smart Watch is water-resistant up to 50 meters."
+        },
+        {
+          "question": "Does it support heart rate monitoring?",
+          "answer": "Yes, it includes continuous heart rate monitoring."
+        },
+        {
+          "question": "Which phones are compatible?",
+          "answer": "Compatible with Android and iOS devices."
+        }
+      ]
+    },
+    {
+      "id": "P-1003",
+      "name": "Wireless Mouse",
+      "category": "Accessories",
+      "brand": "ClickEase",
+      "price_usd": 24.99,
+      "warranty_months": 6,
+      "return_policy": "Returns accepted within 30 days.",
+      "faq": [
+        {
+          "question": "Does this mouse require batteries?",
+          "answer": "Yes, it requires one AA battery."
+        },
+        {
+          "question": "Is it compatible with Mac and Windows?",
+          "answer": "Yes, it works with both MacOS and Windows."
+        }
+      ]
+    },
+    {
+      "id": "P-1004",
+      "name": "USB-C Charging Cable",
+      "category": "Accessories",
+      "brand": "ChargeFast",
+      "price_usd": 12.99,
+      "warranty_months": 12,
+      "return_policy": "Returns accepted within 30 days for unused items.",
+      "faq": [
+        {
+          "question": "What is the cable length?",
+          "answer": "The cable is 1.5 meters long."
+        },
+        {
+          "question": "Does it support fast charging?",
+          "answer": "Yes, it supports fast charging up to 60W."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+redis
+openai
+openai-agents
+ollama
+fastapi
+uvicorn
+pytest

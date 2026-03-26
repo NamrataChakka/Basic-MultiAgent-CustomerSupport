@@ -1,0 +1,25 @@
+services:
+  # The Redis Database
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: always
+
+  # Your AI Agent Application
+  app:
+    build: .
+    ports:
+      - "8000:8000"  # [Host Port] : [Container Port]
+    depends_on:
+      - redis
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    environment:
+      # We point to the 'redis' service defined above, NOT localhost
+      - REDIS_URL=redis://redis:6379/0
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PRODUCT_VECTOR_STORE_ID=${PRODUCT_VECTOR_STORE_ID}
+    restart: on-failure
